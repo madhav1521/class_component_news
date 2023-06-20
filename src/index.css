@@ -22,7 +22,7 @@ input{padding: 10px;}
 
 .newsDetail-btn{text-align: center; margin: 1rem auto;}
 
-
+.form-control div{display: flex; flex-direction: column;align-items: center; }
 
 
 

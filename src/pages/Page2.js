@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 export default function Page2() {
   return (
     <>
-    <p>Page2</p>
-    <Link to='/'>Page1</Link>
+    <p>This is Page2</p>
+    <Link to='/'>Go back to Page1</Link>
     </>
   )
 }

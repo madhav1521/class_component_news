@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import NewsItem from './NewsItem'
+import React from 'react'
+import { newsIdFn } from '../pages/News'
 
-export class News extends Component {
+function newsSummary() {
     articles = [
         {
             "source": {
@@ -82,26 +82,12 @@ export class News extends Component {
             "content": "On the back of upbeat global, domestic data and strong FIIs investments, Indian markets finished the week at fresh record closing high, ignoring likely US rate hike worries, slowing growth in China, … [+3815 chars]"
         },
     ]
-    constructor() {
-        super();
-        this.state = {
-            articles: this.articles,
-            loading: false,
-        }
-    }
-    render() {
-        return (
-            <div className='newsComponent'>News
-                <div className='row items'>
-                    {this.state.articles.map((item) => {
-                        return <div className='col col-md-4' key={item.urlToImage}>
-                            <NewsItem title={item.title} description={item.description} imageUrl={item.urlToImage} newsUrl={item.url} />
-                        </div>
-                    })}
-                </div>
-            </div>
-        )
-    }
+  return (
+    <div>
+      <h2>News Summary</h2>
+      <span>{newsIdFn}</span>
+    </div>
+  )
 }
 
-export default News
+export default newsSummary
