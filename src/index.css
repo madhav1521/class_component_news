@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{height: 100vh;}
+.header{display: flex; background-color: aquamarine;justify-content: space-around;color: aliceblue;height: 5rem;text-decoration: none; align-items: center;}
+.header li, a{text-decoration: none; background-color: antiquewhite; padding: 5px;border-radius: 5px; list-style: none;}
+h2{color: blueviolet;}
+input{padding: 10px;}
+
+.newsComponent{min-height: 100%;background-color: brown; margin-top: 2rem;}
+.items{margin: 1rem; padding:3rem 2rem; background-color: #fff;border-radius: 5px; text-align: center;}
+
+.newsDetail-btn{text-align: center; margin: 1rem auto;}
+
+
+
+
+
+
+
+
