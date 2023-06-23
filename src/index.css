@@ -19,7 +19,8 @@ input{padding: 10px;}
 
 .newsComponent{min-height: 100%;background-color: brown; margin-top: 2rem;}
 .items{margin: 1rem; padding:3rem 2rem; background-color: #fff;border-radius: 5px; text-align: center;}
-
+.newsitemComponent{height: 100%!important;}
+.boxes{margin-bottom: 2rem!important;}
 .newsDetail-btn{text-align: center; margin: 1rem auto;}
 
 .form-control div{display: flex; flex-direction: column;align-items: center; }
