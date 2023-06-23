@@ -3,7 +3,7 @@ import {newsContext,useCount} from '../pages/Sports'
 
 function Form() {
     const ref = useRef(null);
-    const { sport, players, onSubmitHandler, sportChangeHandler, playerChangeHandler,count } = useContext(newsContext);
+    const { sport, players, onSubmitHandler, sportChangeHandler, playerChangeHandler,count} = useContext(newsContext);
     return (
         <Fragment>
                 <form onSubmit={onSubmitHandler} className='form-control'>
@@ -25,8 +25,10 @@ function Form() {
                         {players}
                     </div>
                     <button type='submit'>Submit</button>
-                    <button type='button'>{count}</button>
                 </form>
+                <div>
+                    <button type='button'>{count}</button>
+                </div>
         </Fragment>
     )
 }
